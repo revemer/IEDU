@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        .IEDU {
+            background-color: gold;
+            COLOR: WHITE;
+            height: 250PX;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), URL('a.png');
+            background-position: CENTER;
+            background-size: COVER;
+
+        }
+
+        .IEDU>BUTTON {
+            width: 250PX;
+            height: 50PX;
+            background-color: transparent;
+            border: 1PX solid blue;
+            color: brown;
+            border-radius: 20PX;
+            margin-top: 20PX;
+        }
+
+        .IEDU>BUTTON:hover {
+            border: 2PX solid blue;
+
+        }
+
+        .MYCOMMENT {
+            COLOR: GOLD;
+
+        }
+
+        .R2U {
+            WIDTH: 1200PX;
+            MARGIN: 25PX AUTO 25PX AUTO;
+        }
+
+        .STAT{
+            background-color: beige;
+            WIDTH: 500PX;
+            margin: 20PX AUTO 20PX AUTO;
+            PADDING: 20PX 20PX 20PX 20PX;
+            box-shadow: 0PX 0PX 3PX 0PX GRAY;
+        }
+
+        .MYBTN{
+            display: flex;
+            flex-direction: ROW;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3PX;
+        }
+
+        .MYBTN>BUTTON{
+            margin-right: 10PX;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div CLASS="IEDU">
+        <h1>IEDU</h1>
+        <BUTTON>통계연구소</BUTTON>
+    </div>
+
+    <DIV CLASS="STAT">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">문제풀이</label>
+        </div>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">코멘트</label>
+        </div>
+        <div class="MYBTN">
+            <button type="button" class="btn btn-primary">열기</button>
+<button type="button" class="btn btn-secondary">닫기</button>
+        </div>
+    </DIV>
+
+    <div class="R2U">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://movie-phinf.pstatic.net/20210728_221/1627440327667GyoYj_JPEG/movie_image.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="CARD">여기에 내용</h5>
+                        <p class="card-text">여기엔 코멘트</p>
+                        <P>⭐⭐⭐</P>
+
+                        <P CLASS="MYCOMMENT">여기에 나의 의견</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://movie-phinf.pstatic.net/20210728_221/1627440327667GyoYj_JPEG/movie_image.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="CARD">여기에 내용</h5>
+                        <p class="card-text">여기엔 코멘트</p>
+                        <P>⭐⭐⭐</P>
+
+                        <P CLASS="MYCOMMENT">여기에 나의 의견</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://movie-phinf.pstatic.net/20210728_221/1627440327667GyoYj_JPEG/movie_image.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="CARD">여기에 내용</h5>
+                        <p class="card-text">여기엔 코멘트</p>
+                        <P>⭐⭐⭐</P>
+
+                        <P CLASS="MYCOMMENT">여기에 나의 의견</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://movie-phinf.pstatic.net/20210728_221/1627440327667GyoYj_JPEG/movie_image.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="CARD">여기에 내용</h5>
+                        <p class="card-text">여기엔 코멘트</p>
+                        <P>⭐⭐⭐</P>
+
+                        <P CLASS="MYCOMMENT">여기에 나의 의견</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
